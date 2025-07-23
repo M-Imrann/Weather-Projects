@@ -1,0 +1,11 @@
+[run]
+omit =
+    */site-packages/*
+    */dist-packages/*
+    */usr/lib/*
+    */lib/python3*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == '__main__':
